@@ -1,0 +1,219 @@
+.header-main {
+  width: 100vw;
+  height: 8vh;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  display: flex;
+}
+.header-main nav {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+.header-main nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  align-items: center;
+
+  padding: 0px 20px;
+}
+.header-main nav ul li {
+  list-style: none;
+  height: 100%;
+  /* width: 100px; */
+  display: block;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+}
+.search-home {
+  display: flex;
+  width: 35%;
+  gap: 10px;
+  align-items: center;
+  /* border: 1px solid white; */
+  box-sizing: border-box;
+}
+.search-home .home button {
+  width: 3vw;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background-color: #1f1f1f;
+}
+.search-home .search {
+  display: flex;
+  height: 3vw;
+  align-items: center;
+  /* border: 1px solid rgb(255, 3, 3); */
+  width: 90%;
+  background-color: #1f1f1f;
+  padding: 0px 20px;
+  border-radius: 30px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.search button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid green; */
+}
+.search form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.search .search-style {
+  width: 1px;
+  background-color: #fff;
+  height: 60%;
+}
+.header-main .nav-elements {
+  display: flex;
+  gap: 10px;
+  /* border: 1px solid white; */
+  height: 100%;
+  align-items: center;
+}
+
+.nav-elements .nav-elements-style {
+  width: 1px;
+  background-color: #fff;
+  height: 50%;
+}
+.nav-elements ul {
+  display: flex;
+  gap: 15px;
+}
+.nav-elements ul li button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+.nav-elements ul li button:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+#login {
+  padding: 12px 30px;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.nav-elements-login ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-elements-login ul li button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.nav-elements-login ul li button:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#install {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0px10px;
+}
+#explorePremium {
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+}
+.profile-outer-style {
+  width: 3vw;
+  aspect-ratio: 1/1;
+  background-color: #5b5b5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+#profile {
+  width: 2vw;
+  aspect-ratio: 1/1;
+  background-color: #1ed760;
+  border-radius: 40px;
+  color: #000;
+  font-size: 1rem;
+}
+#profile span {
+  margin: 0;
+  padding: 0;
+}
+
+.header-main .profile-options {
+  position: absolute;
+  width: 13vw;
+  /* border: 1px solid white; */
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  right: 20px;
+  top: 8vh;
+  border-radius: 5px;
+}
+.profile-options ul li {
+  list-style: none;
+}
+.profile-options button {
+  width: 100%;
+  padding: 11px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: left;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-options button:hover {
+  background-color: #3f3f3f;
+  text-decoration: underline;
+}
+#logout {
+  border-top: 1px solid white;
+}
