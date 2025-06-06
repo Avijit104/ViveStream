@@ -209,6 +209,7 @@ button span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 5px;
 }
 .profile-options button:hover {
   background-color: #3f3f3f;
