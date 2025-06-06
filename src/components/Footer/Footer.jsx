@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import FooterOptions from "../FooterOptions/FooterOptions";
 function Footer() {
-  const auth = false;
+  const auth = true;
   return (
     <div className="footer-main">
       <div className="footer-upper">
@@ -113,26 +114,7 @@ function Footer() {
       <div className="footer-lower">
         {auth && (
           <div className="footer-options">
-            <ul>
-              <li>
-                <Link>Legal</Link>
-              </li>
-              <li>
-                <Link>Safety&amps;PrivecyCenter</Link>
-              </li>
-              <li>
-                <Link>Privecy policy</Link>
-              </li>
-              <li>
-                <Link>Cookies</Link>
-              </li>
-              <li>
-                <Link>About Ads</Link>
-              </li>
-              <li>
-                <Link>Accessibility</Link>
-              </li>
-            </ul>
+            <FooterOptions />
           </div>
         )}
         <div className="copyright">
