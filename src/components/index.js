@@ -1,3 +1,4 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-export { Header, Footer };
+import SideNav from "./SideNav/SideNav";
+export { Header, Footer, SideNav };

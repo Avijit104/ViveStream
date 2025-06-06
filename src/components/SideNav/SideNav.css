@@ -1,0 +1,114 @@
+.sidenav-main {
+  width: 25vw;
+  height: 78vh;
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.sidenav-main .sidenav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.sidenav-header h2 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+.sidenav-header button {
+  width: 2.5vw;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav-header button:hover {
+  background-color: #1f1f1f;
+}
+.sidenav-header button svg {
+  width: 80%;
+  fill: #fff;
+}
+.sidenav-hero {
+  padding: 0px 10px;
+  /* border: 1px solid white; */
+  height: 40vh;
+  overflow: scroll;
+  margin-top: 20px;
+}
+.sidenav-hero-content {
+  /* margin-top: 200px; */
+  width: 100%;
+}
+.sidenav-hero-content .create-playlist,
+.sidenav-hero-content .browse-podcasts {
+  background-color: #1f1f1f;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px 0px 0px 0px;
+}
+.sidenav-hero-content h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-wrap: wrap;
+}
+.sidenav-hero-content p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-wrap: wrap;
+}
+.sidenav-hero-content button {
+  padding: 8px 25px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.sidenav-hero-content button:hover {
+  transform: scale(1.02);
+}
+.sidenav-footer {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid white; */
+  margin-top: 15px;
+}
+.sidenav-footer .cookies a {
+  display: block;
+  color: #fff;
+  margin: 20px 0px;
+  font-size: 0.9rem;
+}
+.sidenav-footer .sidenav-lang {
+  margin-top: 30px;
+  padding: 5px;
+}
+.sidenav-footer button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 12px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  border: 2px solid #4d4d4d;
+  outline: none;
+  background-color: transparent;
+  transform: scale(0.9);
+}
+
+.sidenav-footer button:hover {
+  transform: scale(1);
+  border: 2px solid #fff;
+}
