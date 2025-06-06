@@ -2,10 +2,11 @@ import React from "react";
 import "./FooterOptions.css";
 import { Link } from "react-router-dom";
 function FooterOptions(props) {
+  console.log(props.font);
   return (
     <ul
       className="footer-options-main"
-      style={{ fontSize: `${props.fontSise ? props.fontSise : "1rem"}` }}
+      style={{ fontSize: `${props.fontSize ? props.fontSize : "1rem"}` }}
     >
       <li>
         <Link>Legal</Link>
