@@ -1,0 +1,18 @@
+.footer-options-main {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: left;
+  gap: 30px;
+  flex-wrap: wrap;
+  line-height: 2px;
+}
+.footer-options-main li a {
+  font-size: 1rem;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.footer-options-main li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
