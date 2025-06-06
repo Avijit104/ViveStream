@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 function Footer() {
+  const auth = false;
   return (
     <div className="footer-main">
       <div className="footer-upper">
@@ -110,28 +111,30 @@ function Footer() {
         </div>
       </div>
       <div className="footer-lower">
-        <div className="footer-options">
-          <ul>
-            <li>
-              <Link>Legal</Link>
-            </li>
-            <li>
-              <Link>Safety&amps;PrivecyCenter</Link>
-            </li>
-            <li>
-              <Link>Privecy policy</Link>
-            </li>
-            <li>
-              <Link>Cookies</Link>
-            </li>
-            <li>
-              <Link>About Ads</Link>
-            </li>
-            <li>
-              <Link>Accessibility</Link>
-            </li>
-          </ul>
-        </div>
+        {auth && (
+          <div className="footer-options">
+            <ul>
+              <li>
+                <Link>Legal</Link>
+              </li>
+              <li>
+                <Link>Safety&amps;PrivecyCenter</Link>
+              </li>
+              <li>
+                <Link>Privecy policy</Link>
+              </li>
+              <li>
+                <Link>Cookies</Link>
+              </li>
+              <li>
+                <Link>About Ads</Link>
+              </li>
+              <li>
+                <Link>Accessibility</Link>
+              </li>
+            </ul>
+          </div>
+        )}
         <div className="copyright">
           <p>&copy; 2025 ViveSteam Avijit</p>
         </div>
