@@ -38,7 +38,7 @@ function Header() {
                 </span>
               </button>
             </div>
-            <div className="search">
+            <div className="header-search">
               <form action="#">
                 <button id="searchBtn" onClick={searchFunc}>
                   <span>
