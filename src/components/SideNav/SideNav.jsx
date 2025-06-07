@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SideNavLogout from "./SideNavLogout/SideNavLogout";
 import SideNavLogin from "./SideNavLogin/SideNavLogin";
 function SideNav() {
-  const auth = true;
+  const auth = false;
 
   return (
     <>
