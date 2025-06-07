@@ -1,0 +1,54 @@
+.side-artist {
+  width: 100%;
+  /* border: 1px solid white; */
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.side-artist:hover .side-artist-style {
+  z-index: 3;
+}
+.side-artist:hover .side-artist-main {
+  background-color: #4b4b4b;
+}
+.side-content-main {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.side-artist-img {
+  width: 3.5vw;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: contain;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+.side-artist-details h2 {
+  font-size: 1.15rem;
+}
+.side-artist-details p {
+  font-size: 1rem;
+}
+
+.side-artist-style {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.side-artist-style button {
+  width: 3.5vw;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #0000006d;
+}
+.side-artist-style button svg {
+  width: 70%;
+  fill: #fff;
+}
