@@ -1,12 +1,12 @@
 .login-main {
-  width: 45vw;
+  width: 47vw;
   /* border: 1px solid white; */
   padding: 40px 10px;
   align-self: center;
   justify-self: center;
   background-color: #121212;
   box-sizing: border-box;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 .login-header {
   /* border: 1px solid white; */
