@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Logo from "../Logo";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 function Header() {
-  const auth = true;
+  const auth = false;
+  const navigate = useNavigate();
   const searchFunc = (e) => {
     e.preventDefault();
   };
@@ -111,10 +113,24 @@ function Header() {
                     </button>
                   </li>
                   <li>
-                    <button>Sign&nbsp;up</button>
+                    <button
+                      id="signup"
+                      onClick={() => {
+                        navigate("/signup");
+                      }}
+                    >
+                      Sign&nbsp;up
+                    </button>
                   </li>
                   <li>
-                    <button id="login">Log&nbsp;in</button>
+                    <button
+                      id="login"
+                      onClick={() => {
+                        navigate("/login");
+                      }}
+                    >
+                      Log&nbsp;in
+                    </button>
                   </li>
                 </ul>
               </div>
