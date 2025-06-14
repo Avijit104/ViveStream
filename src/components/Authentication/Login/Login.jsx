@@ -194,7 +194,7 @@ function Login() {
       </div>
       <div className="login-signup">
         <p>
-          Don't have any account? <Link>Click here</Link>
+          Don't have any account? <Link>Sign up for viveStreame</Link>
         </p>
       </div>
     </div>

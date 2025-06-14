@@ -124,3 +124,6 @@ button div .button-text {
 .login-signup a {
   color: #ffffff;
 }
+.login-signup a:hover {
+  color: #1ed760;
+}
