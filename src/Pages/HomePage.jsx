@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, HomeContainer, SideNav } from "../components";
+import { Header, Hero, HomeContainer, SideNav } from "../components";
 
 function HomePage() {
   return (
@@ -7,6 +7,7 @@ function HomePage() {
       <Header />
       <HomeContainer>
         <SideNav />
+        <Hero />
       </HomeContainer>
     </div>
   );
