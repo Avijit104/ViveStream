@@ -1,6 +1,4 @@
 .sidenav-main {
-  width: 25vw;
-  height: 78vh;
   background-color: #121212;
   padding: 10px;
   border-radius: 10px;
@@ -13,19 +11,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
-  /* border: 1px solid white; */
 }
 .sidenav-library .sidenav-library-header {
   display: flex;
   align-items: center;
-  /* border: 1px solid white; */
   width: 40%;
   overflow: hidden;
   margin: 2px;
   gap: 10px;
 }
 .sidenav-library-svg-init {
-  /* border: 1px solid white; */
   position: relative;
   left: -30px;
   display: none;
@@ -72,7 +67,6 @@
 }
 .sidenav-library-buttons #createLibrary svg {
   fill: #ececec;
-  /* border: 1px solid white; */
 }
 .sidenav-library-buttons #createLibrary:hover {
   background-color: #272626;
@@ -111,7 +105,6 @@
   display: flex;
   gap: 10px;
   border-radius: 30px;
-  /* border: 1px solid white; */
 }
 .sidenav-header-buttons #sidenavClose {
   width: 2.5vw;
@@ -127,7 +120,6 @@
   padding: 10px;
   align-items: center;
   margin-top: 10px;
-  /* border: 1px solid white; */
 }
 .sidenav-header-search #sidenavSearch {
   display: flex;
@@ -170,7 +162,6 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* border: 1px solid white; */
   padding: 2px 0px;
 }
 
@@ -192,7 +183,6 @@
   left: 11vw;
   top: 30vh;
   width: 12vw;
-  /* border: 1px solid white; */
   background-color: #1f1f1f;
   padding: 5px;
   box-sizing: border-box;
@@ -203,12 +193,10 @@
 }
 .sort-options ul {
   width: 100%;
-  /* border: 1px solid white; */
 }
 .sort-options ul li {
   list-style: none;
   width: 100%;
-  /* border: 1px solid white; */
 }
 .sort-options ul li button {
   width: 100%;
@@ -224,9 +212,6 @@
 .sort-options ul li button:hover {
   background-color: #2d2d2d;
 }
-/* .sort-options ul li button:focus {
-    color: #1ed760;
-  } */
 
 .view-options {
   padding: 2px;
@@ -244,7 +229,6 @@
   border-radius: 7px;
   margin-top: 5px;
   width: 100%;
-  /* border: 1px solid white; */
 }
 .view-options ul li {
   list-style: none;
@@ -264,6 +248,3 @@
 .view-options ul li button svg {
   width: 50%;
 }
-/* .view-options ul li button:focus {
-    background-color: #1f1f1f;
-  } */

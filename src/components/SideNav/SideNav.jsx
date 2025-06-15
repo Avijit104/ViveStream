@@ -7,7 +7,14 @@ function SideNav() {
   const auth = false;
 
   return (
-    <div style={{ height: "78vh" }}>
+    <div
+      style={{
+        width: "25vw",
+        height: "78vh",
+        backgroundColor: "#121212",
+        overflowY: "scroll",
+      }}
+    >
       {auth && <SideNavLogout />}
       {!auth && <SideNavLogin />}
     </div>

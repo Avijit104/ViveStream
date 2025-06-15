@@ -1,6 +1,4 @@
 .sidenav-main {
-  width: 25vw;
-  height: 78vh;
   background-color: #121212;
   padding: 10px;
   border-radius: 10px;
@@ -37,13 +35,11 @@
 }
 .sidenav-hero {
   padding: 0px 10px;
-  /* border: 1px solid white; */
   height: 40vh;
   overflow: scroll;
   margin-top: 20px;
 }
 .sidenav-hero-content {
-  /* margin-top: 200px; */
   width: 100%;
 }
 .sidenav-hero-content .create-playlist,
@@ -81,7 +77,6 @@
 .sidenav-footer {
   width: 100%;
   padding: 10px;
-  /* border: 1px solid white; */
   margin-top: 15px;
 }
 .sidenav-footer .cookies a {
