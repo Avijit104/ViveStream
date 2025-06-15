@@ -6,6 +6,7 @@ import Signup from "./Authentication/SignUp/Signup";
 import HomeContainer from "./Containers/HomeContainer";
 import AuthFooter from "./Authentication/AuthFooter";
 import Hero from "./Hero/Hero";
+import Player from "./Player/Player";
 export {
   Header,
   Footer,
@@ -15,4 +16,5 @@ export {
   HomeContainer,
   AuthFooter,
   Hero,
+  Player,
 };
