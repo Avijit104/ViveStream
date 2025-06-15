@@ -6,9 +6,11 @@ function HomeContainer({ children }) {
       style={{
         display: "flex",
         width: "100%",
-        height: "70vh",
         padding: "5px",
         boxSizing: "border-box",
+        gap: "5px",
+        justifyContent: "space-between",
+        // border: "1px solid white",
       }}
     >
       {children}
