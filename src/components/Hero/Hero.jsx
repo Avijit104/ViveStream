@@ -12,7 +12,7 @@ function Hero() {
         borderRadius: "10px",
         padding: "10px",
         overflow: "scroll",
-        height: "78vh",
+        height: "80vh",
         width: "100vw",
       }}
     >
