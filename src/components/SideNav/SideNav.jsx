@@ -7,11 +7,10 @@ function SideNav() {
   const auth = false;
 
   return (
-    <>
+    <div style={{ height: "78vh" }}>
       {auth && <SideNavLogout />}
       {!auth && <SideNavLogin />}
-    </>
+    </div>
   );
 }
-
 export default SideNav;
