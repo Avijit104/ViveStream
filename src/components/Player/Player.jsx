@@ -3,7 +3,7 @@ import PlayerLogin from "./PlayerLogin/PlayerLogin";
 import PlayerLogout from "./PlayerLogout/PlayerLogout";
 
 function Player() {
-  const auth = true;
+  const auth = false;
   return (
     <div
       style={{

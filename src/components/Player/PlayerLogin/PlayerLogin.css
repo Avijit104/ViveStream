@@ -1,0 +1,182 @@
+.player-login {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 100px;
+  cursor: pointer;
+}
+
+/* current playable css */
+.player-login .player-login-playable {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 30px;
+}
+.playable-details {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.playable-details .playable-image {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
+  border-radius: 3px;
+}
+
+.playable-details .playable-text {
+  line-height: 1;
+}
+.playable-details .playable-text h2 a {
+  font-size: 1.05rem;
+  color: #fff;
+  text-decoration: none;
+}
+.playable-details .playable-text h2 a:hover {
+  text-decoration: underline;
+}
+.playable-details .playable-text p a {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.playable-details .playable-text p a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.player-login-playable button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.player-login-playable button svg {
+  fill: #b3b3b3;
+}
+.player-login-playable button svg:hover {
+  fill: #ffffff;
+}
+
+/* main player controls css */
+.player-login .player-login-controls {
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  grid-area: "player";
+  grid-column-start: 2;
+}
+.player-login-controls .controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.player-login-controls .controls button {
+  width: 1.8vw;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.controls button svg {
+  width: 100%;
+  fill: #b3b3b3;
+}
+.controls button svg:hover {
+  fill: #fff;
+}
+#play,
+#pause {
+  width: 2vw;
+  background-color: #fff;
+}
+#play:hover,
+#pause:hover {
+  transform: scale(1.1);
+}
+#play svg,
+#pause svg {
+  fill: #000;
+  width: 90%;
+}
+
+.player-login-controls .pogress-bar {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.pogress-bar .bar-holder {
+  width: 85%;
+  height: 3px;
+  background-color: #4b4b4b;
+  overflow: hidden;
+}
+.pogress-bar .bar-holder:hover .bar {
+  background-color: #1ed760;
+}
+.pogress-bar .bar-holder .bar {
+  position: relative;
+  left: -50%;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.pogress-bar p {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* extra controls css  */
+.player-login-extra {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.player-login-extra button {
+  width: 1.8vw;
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.player-login-extra button svg {
+  width: 80%;
+  fill: #b3b3b3;
+}
+.player-login-extra button svg:hover {
+  fill: #fff;
+}
+.player-login-extra .volume {
+  width: 30%;
+}
+.volume .bar-holder {
+  height: 3px;
+  overflow: hidden;
+  background-color: #4b4b4b;
+}
+.volume .bar-holder:hover .bar {
+  background-color: #1ed760;
+}
+.bar-holder .bar {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -20%;
+  background-color: #fff;
+}
