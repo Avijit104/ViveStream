@@ -2,9 +2,10 @@ import React from "react";
 import HeroLogin from "./HeroLogin/HeroLogin";
 import HeroLogout from "./HeroLogout/HeroLogout";
 import Footer from "../Footer/Footer";
+import { useSelector } from "react-redux";
 
 function Hero() {
-  const auth = true;
+  const auth = useSelector((state) => state.auth.loginStatus);
   return (
     <div
       style={{

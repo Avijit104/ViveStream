@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Logo from "../Logo";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 function Header() {
-  const auth = false;
+  const auth = useSelector((state) => state.auth.loginStatus);
+  console.log("auth", auth);
   const navigate = useNavigate();
   const searchFunc = (e) => {
     e.preventDefault();

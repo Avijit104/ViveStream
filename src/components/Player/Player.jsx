@@ -1,9 +1,10 @@
 import React from "react";
 import PlayerLogin from "./PlayerLogin/PlayerLogin";
 import PlayerLogout from "./PlayerLogout/PlayerLogout";
+import { useSelector } from "react-redux";
 
 function Player() {
-  const auth = false;
+  const auth = useSelector((state) => state.auth.loginStatus);
   return (
     <div
       style={{

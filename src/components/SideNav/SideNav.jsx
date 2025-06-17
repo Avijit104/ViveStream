@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import SideNavLogout from "./SideNavLogout/SideNavLogout";
 import SideNavLogin from "./SideNavLogin/SideNavLogin";
+import { useSelector } from "react-redux";
 
 function SideNav() {
-  const auth = false;
+  const auth = useSelector((state) => state.auth.loginStatus);
 
   return (
     <div
