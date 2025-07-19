@@ -8,7 +8,7 @@ function InstallApp() {
       <div className="outer">
         <div className="inner">
           <div className="content">
-            <Logo />
+            <Logo innerColor="#000000" outerColor="#000000" />
             <h3>Downlad ViveStream for Windows</h3>
             <p>
               Enjoy high-quality audio and offline playback, plus Windows Game

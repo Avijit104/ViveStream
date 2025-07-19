@@ -99,7 +99,7 @@ function Header() {
                 <div className="nav-elements-style"></div>
                 <ul>
                   <li>
-                    <button id="install">
+                    <button id="install" onClick={() => navigate("/install")}>
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,11 @@ function Header() {
                     <button id="explorePremium">Explore&nbsp;Premium</button>
                   </li>
                   <li>
-                    <button title="install app" id="install">
+                    <button
+                      title="install app"
+                      id="install"
+                      onClick={() => navigate("/install")}
+                    >
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

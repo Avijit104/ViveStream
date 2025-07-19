@@ -20,7 +20,7 @@ function Hero() {
       <div>
         {/* side player interact here */}
         {auth ? <HeroLogin /> : <HeroLogout />}
-        <p>todo this is empty</p>
+        {/* <p>todo herologin is empty</p> */}
       </div>
       <Footer />
     </div>

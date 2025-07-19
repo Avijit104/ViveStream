@@ -2,14 +2,14 @@ import React from "react";
 
 function Logo(props) {
   return (
-    <div
-      style={{
-        color: `${props.outerColor ? props.outerColor : "#ffffff"}`,
-        fontSize: `${props.size ? props.size : "2rem"}`,
-        fontWeight: "bold",
-      }}
-    >
-      <p>
+    <div>
+      <p
+        style={{
+          color: `${props.outerColor ? props.outerColor : "#ffffff"}`,
+          fontSize: `${props.size ? props.size : "2rem"}`,
+          fontWeight: "bold",
+        }}
+      >
         Vive
         <span
           style={{

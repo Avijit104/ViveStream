@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Hero, HomeContainer, Player, SideNav } from "../components";
+import { Outlet } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -7,7 +8,7 @@ function HomePage() {
       <Header />
       <HomeContainer>
         <SideNav />
-        <Hero />
+        <Outlet />
       </HomeContainer>
       <Player />
     </div>

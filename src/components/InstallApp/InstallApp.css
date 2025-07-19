@@ -1,11 +1,10 @@
 .install-app {
   padding: 0;
-  width: 100%;
-  height: 100%;
   background-color: #121212;
   border-radius: 10px;
-  overflow-x: hidden;
-  margin-bottom: 40px;
+  overflow: scroll;
+  height: 80vh;
+  width: 100vw;
 }
 
 .outer {
@@ -45,7 +44,7 @@
 .content p {
   width: 100%;
   /* border:1px solid black; */
-  font-size: 20px;
+  font-size: 1.2rem;
   color: black;
   margin-top: 20px;
 }

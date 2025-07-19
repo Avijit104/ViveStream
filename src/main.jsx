@@ -8,6 +8,8 @@ import SignupPage from "./Pages/SignupPage.jsx";
 import HomePage from "./Pages/HomePage.jsx";
 import { Provider } from "react-redux";
 import store from "./Store/Store.js";
+import { Hero } from "./components/index.js";
+import InstallApp from "./components/InstallApp/InstallApp.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,16 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+        children: [
+          {
+            path: "/",
+            element: <Hero />,
+          },
+          {
+            path: "/install",
+            element: <InstallApp />,
+          },
+        ],
       },
     ],
   },
